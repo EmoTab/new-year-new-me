@@ -1,8 +1,110 @@
 *{
  margin: 0;
- padding: 0;
- box-sizing: border-box;
 }
 body{
- background: orange;
+ font-family: 'Work Sans', sans-serif;
 }
+/* banner start*/
+.banner{
+ height: 808px;
+ background-image: url('../images/banner/banner1.png');
+ background-repeat: no-repeat;
+}
+.banner-contents{
+ max-width: 1100px;
+ margin: 0 auto;
+ text-align: right;
+ padding-top: 216px;
+}
+.banner-title {
+ color: #151414;
+ font-weight: 700;
+ font-size: 65px;
+}
+.banner-description{
+ margin-top: 24px;
+ margin-bottom: 32px;
+}
+.btn-banner{
+ background-color: #F15B22;
+ color: #fff;
+ border: 0;
+ padding: 20px 25px;
+ font-weight: 600;
+ font-size: 20px;
+ border-radius: 5px;
+}
+/* banner end*/
+/* main start*/
+main{
+ max-width: 1100px;
+ margin: 0 auto;
+}
+
+/* previous year start */
+.previous-year{
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ margin-top: 130px;
+ margin-bottom: 130px;
+}
+.previous-year-contents{
+ padding: 24px 0 0 87px;
+}
+.previous-year-title{
+ color: #151414;
+ font-weight: 700;
+ font-size: 40px;
+}
+.previous-year-description{
+ color: #444343;
+ font-size: 16px;
+ margin-top: 24px;
+ margin-bottom: 16px;
+}
+.previous-year-check-list{
+ color: #444343;
+}
+.previous-year-check-list i{
+ color: #16D887;
+}
+/* previous year end */
+/* plans start */
+.plans-title{
+ color: #151414;
+ font-weight: 700;
+ font-size: 40px;
+ margin-bottom: 50px;
+ text-align: center;
+}
+.plans-container{
+ display: flex;
+ gap: 30px;
+ align-items: center;
+ justify-content: center;
+ 
+}
+.plan{
+ display: flex;
+ gap: 30px;
+ flex-direction: column;
+ align-items: center;
+}
+.plan-title{
+ color: #151414;
+ font-weight: 700;
+ font-size: 30px;
+ text-align: center;
+}
+.plan-description{
+ color: #737272;
+ font-weight: 500;
+ font-size: 25px;
+}
+
+/* plans end */
+/* main end*/
+
+/* font-family: 'Inter',sans-serif;
+font-family: 'Work Sans',sans-serif; */
