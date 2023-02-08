@@ -111,7 +111,7 @@ main{
 .mindset{
  background-image: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%), url('../images/watch.png');
  background-repeat: no-repeat;
- 
+
  border-radius: 8px;
  margin: 130px 0; 
 }
@@ -135,5 +135,78 @@ main{
 /* mindset end */
 /* main end*/
 
+/* footer start */
+footer{
+ background-color: #151414;
+}
+.footer-contents{
+ max-width: 1120px;
+ margin: 0 auto;
+ padding: 130px 0;
+
+ display: flex;
+ align-items: baseline;
+ justify-content: space-between;
+}
+.footer-text{
+ text-align: left;
+}
+.footer-title{
+ color: #F8F8F8;
+ font-weight: 700;
+ font-size: 45px;
+}
+.footer-description{
+ margin-top: 16px;
+ margin-bottom: 24px;
+}
+.footer-description, .mailing-address, .cell-no{
+ color: #FFFFFF;
+}
+.cell-no{
+ margin-top: 16px;
+ margin-bottom: 32px;;
+}
+.social-links{
+ padding-right: 18px;
+}
+.social-links i{
+ padding: 20px;
+ font-size: 25px;
+ background-color: #fff;
+ border-radius: 50%;
+}
+.facebook{
+ color: #006AFF;
+}
+.twitter{
+ color: #1DA1F2;
+}
+.youtube{
+ color: #FF0000;
+}
+
+.footer-form-title{
+ color: #fff;
+ font-weight: 600;
+ font-size: 25px;
+}
+.footer-form{
+ font-size: 18px;
+ color: #F3F3F3;
+ background-color: #151414;
+ border-radius: 5px;
+ padding: 20px;
+ margin-top: 30px;
+ margin-bottom: 16px;
+}
+.footer-btn{
+ padding: 20px 36px;
+ font-weight: 600;
+ font-size: 20px;
+ color: #F15B22;
+ border-radius: 8px;
+}
+/* footer end */
 /* font-family: 'Inter',sans-serif;
 font-family: 'Work Sans',sans-serif; */
