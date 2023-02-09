@@ -202,11 +202,10 @@ footer{
 }
 .footer-btn{
  padding: 20px 36px;
+ font-family: 'Inter', sans-serif;
  font-weight: 600;
  font-size: 20px;
  color: #F15B22;
  border-radius: 8px;
 }
 /* footer end */
-/* font-family: 'Inter',sans-serif;
-font-family: 'Work Sans',sans-serif; */
